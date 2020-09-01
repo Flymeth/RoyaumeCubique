@@ -1,0 +1,15 @@
+menu {
+    margin: 0;
+    background-image: url('http://www.allwhitebackground.com/images/7/Minecraft-Game-Background-HD-Image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu > h1 {
+    margin-top: 0;
+}
