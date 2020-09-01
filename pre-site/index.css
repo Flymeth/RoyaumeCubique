@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../Fonts/Minecraft/1_Minecraft-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Minecraft2';
+    src: url('../Fonts/Minecraft\ 2/Minecraft2.ttf') format('ttf');
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+div {
+    background-image: linear-gradient(#6E66E6, #1e11e1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin: 2.5px;
+    border-radius: 0 0 10px 10px;
+}
+h1 {
+    margin-top:0;
+    vertical-align: middle;
+    color: green;
+    font-family: 'Minecraft';
+    text-shadow: 2px 3px 3px black;
+}
+
+h1::selection {
+    font-family: 'Minecraft2';
+    vertical-align: middle;
+    color: green;
+    background-color: rgba(51, 124, 233, 0.4);
+}
+
+.wow {
+    color: black;
+}

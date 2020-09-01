@@ -1,0 +1,29 @@
+menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu {
+    background-image: url('http://www.allwhitebackground.com/images/7/Minecraft-Game-Background-HD-Image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    height: 600px;
+}
+
+.menu > h1 {
+    margin-top: 0;
+    color: blue;
+}
+.menu > p {
+    margin-bottom: 0;
+    
+}
+
+.pages {
+    padding: 5px;
+    margin: 0;
+    background-color: gray;
+}

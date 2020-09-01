@@ -1,0 +1,19 @@
+::-webkit-scrollbar {
+    background-color: cadetblue;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border-width: 10px;
+    display: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    display: initial;
+    background-color: rgba(95, 95, 95, 0.7);
+}
+
+::-webkit-scrollbar:hover {
+    background-color: darkcyan;
+}
