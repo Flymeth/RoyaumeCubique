@@ -15,7 +15,7 @@
 }
 
 .menu {
-    background-image: url('http://www.allwhitebackground.com/images/7/Minecraft-Game-Background-HD-Image.jpg');
+    background-image: url('./Assets/WallPaper-PreMenu.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -47,8 +47,8 @@ div.pages > a {
 }
 
 div.pages > a:hover {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
     font-style: normal;
     font-size: 1.6rem;
 }
