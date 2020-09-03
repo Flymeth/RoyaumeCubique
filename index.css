@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Minecraft2';
-    src: url('./Fonts/Minecraft\ 2/Minecraft2.ttf') format('ttf');
+    src: url('./Fonts/Minecraft/Minecraft2.ttf') format('ttf');
 }
 
 body {
@@ -22,6 +22,7 @@ div {
     margin: 2.5px;
     border-radius: 0 0 10px 10px;
 }
+
 h1 {
     margin-top:0;
     vertical-align: middle;

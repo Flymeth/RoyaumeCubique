@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Minecraft2';
+    src: url('../Fonts/Minecraft/Minecraft2.ttf') format('ttf');
+}
+
 body {
     padding: 0;
     margin: 0;

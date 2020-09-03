@@ -1,7 +1,17 @@
-menu {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+@font-face {
+    font-family: 'PTsans';
+    src: url('../Fonts/PTSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'JJWEB';
+    src: url('../Fonts/JJWEB.ttf') format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'SOFF';
+    src: url('../Fonts/Web\ Serveroff.ttf') format('truetype');
 }
 
 .menu {
@@ -10,20 +20,79 @@ menu {
     background-size: cover;
     margin: 0;
     padding: 20px;
-    height: 600px;
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'SOFF';
+    font-style: italic;
+    font-size: 1.5rem;
+    letter-spacing: 2.5px;
+    position: sticky;
+    box-shadow: 0 -10px 3px gray;
+    border-radius: 10px 10px 0 0;
+}
+
+div.pages > a {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div.pages > a:hover {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-style: normal;
+    font-size: 1.6rem;
 }
 
 .menu > h1 {
-    margin-top: 0;
-    color: blue;
+    font-family: 'JJWEB';
+    vertical-align: middle;
+    margin: 0;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    color: #b300b3;
+    font-size: 100px;
 }
+
+.menu > h3 {
+    color: cyan;
+    font-family: 'PTsans';
+    font-size: 25px;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .menu > p {
+    font-family: 'PTsans';
+    font-weight: 900;
+    color: white;
+    text-shadow: 1px 1px 5px gray;
+    margin-top: 225px;
     margin-bottom: 0;
-    
+    text-decoration: underline;
+    text-underline-position: below;
 }
 
 .pages {
     padding: 5px;
     margin: 0;
     background-color: gray;
+}
+
+.link_in_title {
+    color: inherit;
+}
+
+.link_in_title:hover {
+    color: inherit;
+    text-decoration: underline;
 }
